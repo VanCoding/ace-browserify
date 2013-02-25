@@ -1,0 +1,13 @@
+{
+  "name": "ace-editor",
+  "version": "1.0.0",
+  "description": "A wrapper around ajaxorg/ace to use it with browserify",
+  "main": "ace.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "./build.js"
+  },
+  "repository": "",
+  "author": "Patrik Stutz",
+  "license": "GPL"
+}
