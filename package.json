@@ -1,5 +1,5 @@
 {
-  "name": "ace-editor",
+  "name": "ace-browserify",
   "version": "1.0.0",
   "description": "A wrapper around ajaxorg/ace to use it with browserify",
   "main": "ace.js",
