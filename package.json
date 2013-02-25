@@ -5,9 +5,17 @@
   "main": "ace.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "./build.js"
+    "install": "node build | su"
   },
   "repository": "",
-  "author": "Patrik Stutz",
-  "license": "GPL"
+  "author": {
+    "name": "Patrik Stutz"
+  },
+  "license": "GPL",
+  "_id": "ace-browserify@1.0.0",
+  "readme": "ERROR: No README.md file found!",
+  "dist": {
+    "shasum": "b9d039222356be5c6de20bfded5fa1034aa14512"
+  },
+  "_from": "ace-browserify"
 }

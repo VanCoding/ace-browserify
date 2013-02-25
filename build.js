@@ -6,5 +6,4 @@ cp.exec("git clone git://github.com/ajaxorg/ace-builds.git \""+__dirname+"/ace\"
     for(var i = 0; i < files.length; i++){
         fs.writeFile(__dirname+"/"+files[i],fs.readFileSync(__dirname+"/ace/src-min-noconflict/"+files[i]))
     }    
-    console.log("done");
 });
